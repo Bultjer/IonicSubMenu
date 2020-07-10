@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Klassen</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item [routerLink]="['', { outlets: { menu: ['menu','wirbeltiere'] } }]">
+      Wirbeltiere
+    </ion-item>
+    <ion-item [routerLink]="['', { outlets: { menu: ['menu','wirbellose-tiere'] } }]">
+      Wirbellose Tiere
+    </ion-item>
+  </ion-list>
+</ion-content>
